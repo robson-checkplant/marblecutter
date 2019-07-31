@@ -40,7 +40,7 @@ def render_tile(tile, catalog, transformation=None, format=None, scale=1, expand
     return render(
         bounds,
         shape,
-        WEB_MERCATOR_CRS,
+        WGS84_CRS,
         catalog=catalog,
         format=format,
         transformation=transformation,
